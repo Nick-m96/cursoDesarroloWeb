@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0;
+    background: #fafafa 
+}
+
+
+.header {
+    background-color: #1d242c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header ol {
+    height: inherit;
+    list-style: none;
+    margin: 0;
+    display: flex
+}
+
+.header li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 20px
+}
+
+.menu {
+    display: flex;
+    height: inherit;
+}
+
+
+figure {
+    margin: 0
+}
+
+.hero {
+    height: 300px;
+    background-image: url('./images/hero.jpg');
+    background-color: #1d242c;
+    color: white;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+.portfoil {
+    padding: 60px;
+}
+
+.project { 
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: 10px 0px 30px;
+    padding: 30px;
+    background: white;
+    display: flex;
+    align-items: center
+}
+
+.project-details, .project-imageContainer {
+    flex-wrap: wrap
+}
+
+.project-image {
+    width: 500px;
+}
